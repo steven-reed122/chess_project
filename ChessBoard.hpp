@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <string>
+#include <iostream>
 
 // This class is a simple representation of a chess board. It has a size and a vector of vectors of strings that represents the board.
 // The size is an int that represents the size of the board.
@@ -44,6 +45,14 @@ public:
         return board_[x][y];
     }
 
+    // Setter for the board_ member variable.
+    void set_board_nothing() {
+        for (int i = 0; i < size_; i++) {
+            for (int j = 0; j < size_; j++) {
+                board_[i][j] = " ";
+            }
+        }
+    }
     // Method that prints the board to the console.
     void print_board() const {
         for (int i = 0; i < size_; i++) {

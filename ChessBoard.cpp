@@ -7,21 +7,10 @@
 #include "ChessPieces.hpp"
 #include <iostream>
 
-void makeBoard(int size) {
-    int boardSize = 8;
-    ChessBoard board =  ChessBoard(boardSize);
-    for (int i = 0; i < boardSize; i++) {
-        board[i] = new ChessPiece*[boardSize];
-    }
-    for (int i = 0; i < boardSize; i++) {
-        for (int j = 0; j < boardSize; j++) {
-            board[i][j] = nullptr;
-        }
-    }
+int main()
+{
+    ChessBoard board = ChessBoard(8);
+    board.set_board_nothing();
+    board.print_board();
+    return 0;
 }
-
-int ChessBoard::getBoardSize() {
-    return boardSize;
-}
-
-
