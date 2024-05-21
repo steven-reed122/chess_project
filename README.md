@@ -7,19 +7,19 @@ A few bugs still persist, such as with pawn promotion or castling in weird situa
 To run:
 
 
-Open files in VScode.
+1) Open files in VScode.
 
 
-Go to ChessMain.cpp file.
+2) Go to ChessMain.cpp file.
 
-Open the Running and Debugging Tab on the left side of the screen.
+3) Open the Running and Debugging Tab on the left side of the screen.
 
-Click the green arrow to build and debug the file. 
+4) Click the green arrow to build and debug the file. 
 
-Open the debug console.
+5) Open the debug console.
 
-Play the game according to the rules of chess and the instructions of the terminal.
+6) Play the game according to the rules of chess and the instructions of the terminal.
 
-Type quit for both the the piece you want to move and the location for where to move the piece to end the game at any time.
+7) Type quit for both the the piece you want to move and the location for where to move the piece to end the game at any time.
 
-Once the file has been built using the instructions above, you can play it in the terminal with the command "./ChessMain".
+- Once the file has been built using the instructions above, you can play it in the terminal with the command "./ChessMain".
