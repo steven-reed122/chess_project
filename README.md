@@ -1,5 +1,6 @@
 # chess_project
 This a text-based two-player chess game played in the same terminal.
+It was written by Steven Reed (myself) and Landon Truong as part of a larger class project.
 
 To run:
 
