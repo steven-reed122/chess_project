@@ -1,4 +1,3 @@
-
 //This is a files that contains the chess board class
 //Written by Steven Reed amd Landon Truong
 //Created on: 2/20/2024

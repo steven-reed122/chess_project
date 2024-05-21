@@ -11,6 +11,8 @@
 
 int main() {
     ChessBoard board = ChessBoard();
+       board.movePiece("d2", "d4");
+    board.printBoard();
     board.movePiece("d7", "d5");
     board.printBoard();
     board.movePiece("e2", "e4");
