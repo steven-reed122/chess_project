@@ -6,7 +6,9 @@ To run:
 
 Open files in VScode.
 
+
 Go to ChessMain.cpp file.
+
 Open the Running and Debugging Tab on the left side of the screen.
 
 Click the green arrow to build and debug the file. 
